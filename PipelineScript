@@ -1,0 +1,52 @@
+pipeline {
+    agent any
+    environment {
+        DOCKERHUB_REGISTRY = "hyndhu/calculator"
+        DOCKERHUB_CREDENTIALS = credentials('DockerCred')
+    }
+  stages {
+        stage('Github Repo Pull') {
+            steps {
+                git url: 'https://github.com/Hyndu20/Devops_Calculator.git',
+                branch: 'main',
+                credentialsId: 'GitHub'
+            }
+        }
+        stage('Maven Build')
+        {
+            steps{
+                sh 'mvn clean install'
+            }
+        }
+        stage('Building Docker Image') {
+			steps {
+				sh "docker build -t hyndhu/calculator:latest ."
+			}
+		}
+
+		stage('Pushing Docker Image to Docker Hub') {
+			steps {
+				sh 'echo $DOCKERHUB_CREDENTIALS_PSW | docker login -u $DOCKERHUB_CREDENTIALS_USR --password-stdin'
+				sh 'docker push $DOCKERHUB_REGISTRY:latest'
+			}
+		}
+
+		stage('Removing Docker Image from Local') {
+            steps {
+                sh "docker rmi hyndhu/calculator:latest"
+            }
+        }
+		stage('Deploy Using Ansible')
+		{
+		    steps{
+		        ansiblePlaybook colorized: true,
+		        disableHostKeyChecking: true,
+		        installation: 'Ansible',
+		        inventory: 'myinventory',
+		        playbook: 'playbook.yml'
+		    }
+		}
+
+
+}
+}

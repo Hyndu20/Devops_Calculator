@@ -1,0 +1,66 @@
+2023-03-20 00:13:25.911 [main] INFO  org.example.Calculator - [GIVEN NUMBER - NATURAL LOG] - 6.0
+2023-03-20 00:13:25.913 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - NATURAL LOG] - 1.791759469228055
+2023-03-20 00:13:43.498 [main] INFO  org.example.Calculator - [GIVEN NUMBER - SQUARE ROOT] - 9.0
+2023-03-20 00:13:43.499 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - SQUARE ROOT] - 3.0
+2023-03-20 00:13:43.500 [main] INFO  org.example.Calculator - [GIVEN NUMBER - SQUARE ROOT] - 60.0
+2023-03-20 00:13:43.500 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - SQUARE ROOT] - 7.745966692414834
+2023-03-20 00:13:43.502 [main] INFO  org.example.Calculator - [GIVEN NUMBER - NATURAL LOG] - 1.0
+2023-03-20 00:13:43.502 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - NATURAL LOG] - 0.0
+2023-03-20 00:13:43.502 [main] INFO  org.example.Calculator - [GIVEN NUMBER - NATURAL LOG] - 20.0
+2023-03-20 00:13:43.503 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - NATURAL LOG] - 2.995732273553991
+2023-03-20 00:13:43.503 [main] INFO  org.example.Calculator - [GIVEN NUMBER - NATURAL LOG] - 6.8
+2023-03-20 00:13:43.503 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - NATURAL LOG] - 1.916922612182061
+2023-03-20 00:13:43.504 [main] INFO  org.example.Calculator - [GIVEN NUMBER - NATURAL LOG] - 3.7
+2023-03-20 00:13:43.504 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - NATURAL LOG] - 1.308332819650179
+2023-03-20 00:13:43.504 [main] INFO  org.example.Calculator - [GIVEN NUMBER - FACTORIAL] - 10.0
+2023-03-20 00:13:43.505 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 1.0
+2023-03-20 00:13:43.505 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 2.0
+2023-03-20 00:13:43.505 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 6.0
+2023-03-20 00:13:43.505 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 24.0
+2023-03-20 00:13:43.505 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 120.0
+2023-03-20 00:13:43.506 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 720.0
+2023-03-20 00:13:43.506 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 5040.0
+2023-03-20 00:13:43.506 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 40320.0
+2023-03-20 00:13:43.506 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 362880.0
+2023-03-20 00:13:43.506 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 3628800.0
+2023-03-20 00:13:43.506 [main] INFO  org.example.Calculator - [GIVEN NUMBER - FACTORIAL] - 8.0
+2023-03-20 00:13:43.506 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 1.0
+2023-03-20 00:13:43.507 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 2.0
+2023-03-20 00:13:43.507 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 6.0
+2023-03-20 00:13:43.507 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 24.0
+2023-03-20 00:13:43.507 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 120.0
+2023-03-20 00:13:43.507 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 720.0
+2023-03-20 00:13:43.507 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 5040.0
+2023-03-20 00:13:43.507 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 40320.0
+2023-03-20 00:13:43.508 [main] INFO  org.example.Calculator - [GIVEN NUMBER - FACTORIAL] - 3.0
+2023-03-20 00:13:43.508 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 1.0
+2023-03-20 00:13:43.508 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 2.0
+2023-03-20 00:13:43.509 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 6.0
+2023-03-20 00:13:43.509 [main] INFO  org.example.Calculator - [GIVEN NUMBER - FACTORIAL] - 15.0
+2023-03-20 00:13:43.509 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 1.0
+2023-03-20 00:13:43.509 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 2.0
+2023-03-20 00:13:43.509 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 6.0
+2023-03-20 00:13:43.509 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 24.0
+2023-03-20 00:13:43.509 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 120.0
+2023-03-20 00:13:43.510 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 720.0
+2023-03-20 00:13:43.510 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 5040.0
+2023-03-20 00:13:43.510 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 40320.0
+2023-03-20 00:13:43.510 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 362880.0
+2023-03-20 00:13:43.510 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 3628800.0
+2023-03-20 00:13:43.510 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 3.99168E7
+2023-03-20 00:13:43.510 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 4.790016E8
+2023-03-20 00:13:43.510 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 6.2270208E9
+2023-03-20 00:13:43.511 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 8.71782912E10
+2023-03-20 00:13:43.511 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - FACTORIAL] - 1.307674368E12
+2023-03-20 00:13:43.516 [main] INFO  org.example.Calculator - [POWER OF GIVEN NUMBER 3.0 IS] 2.0
+2023-03-20 00:13:43.517 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - POWER] - 9.0
+2023-03-20 00:13:43.517 [main] INFO  org.example.Calculator - [POWER OF GIVEN NUMBER 10.0 IS] 2.0
+2023-03-20 00:13:43.517 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - POWER] - 100.0
+2023-03-20 00:13:43.518 [main] INFO  org.example.Calculator - [POWER OF GIVEN NUMBER 6.0 IS] 4.0
+2023-03-20 00:13:43.518 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - POWER] - 1296.0
+2023-03-20 00:13:43.518 [main] INFO  org.example.Calculator - [POWER OF GIVEN NUMBER -6.0 IS] 2.0
+2023-03-20 00:13:43.518 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - POWER] - 36.0
+2023-03-20 00:13:43.519 [main] INFO  org.example.Calculator - [GIVEN NUMBER - SQUARE ROOT] - 25.0
+2023-03-20 00:13:43.519 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - SQUARE ROOT] - 5.0
+2023-03-20 00:13:43.519 [main] INFO  org.example.Calculator - [GIVEN NUMBER - SQUARE ROOT] - 100.0
+2023-03-20 00:13:43.519 [main] INFO  org.example.Calculator - [RESULT OF GIVEN NUMBER - SQUARE ROOT] - 10.0
