@@ -64,23 +64,23 @@ public class Calculator {
         } while (true);
     }
     public double squareRoot(double num1) {
-        log.info("[GIVEN NUMBER - SQUARE ROOT] - " + num1);
+        log.info("[SQ ROOT]" + num1);
         double result = Math.sqrt(num1);
-        log.info("[RESULT OF GIVEN NUMBER - SQUARE ROOT] - " + result);
+        log.info("[RESULT-SQ ROOT]" + result);
         return result;
     }
     public double factorial(double num1) {
-        log.info("[GIVEN NUMBER - FACTORIAL] - " + num1);
+        log.info("[FACTORIAL]" + num1);
         double facto = 1;
         for (int i = 1; i <= num1; ++i) {
             facto *= i;
             //double result = fact(num1);
-            log.info("[RESULT OF GIVEN NUMBER - FACTORIAL] - " + facto);
+            log.info("[RESULT-FACTORIAL]" + facto);
         }
         return facto;
     }
     public double naturalLog(double num1) {
-        log.info("[GIVEN NUMBER - NATURAL LOG] - " + num1);
+        log.info("[NATURAL LOG]" + num1);;
         double result = 0;
         try {
 
@@ -92,19 +92,20 @@ public class Calculator {
                 result = Math.log(num1);
             }
         } catch (ArithmeticException error) {
-            System.out.println("[EXCEPTION - LOG] - Cannot find log of negative numbers " + error.getLocalizedMessage());
+            System.out.println("Cannot find log of negative numbers " + error.getLocalizedMessage());
         }
-        log.info("[RESULT OF GIVEN NUMBER - NATURAL LOG] - " + result);
+        log.info("[RESULT]-" + result);
         return result;
     }
     public double power(double num1, double num2) {
-        log.info("[POWER OF GIVEN NUMBER " + num1 + " IS] " + num2);
+        log.info("[POWER" + num1 + "RAISED TO] " + num2);
         double result = Math.pow(num1,num2);
-        log.info("[RESULT OF GIVEN NUMBER - POWER] - " + result);
+        log.info("[RESULT-POWER]" + result);
         return result;
     }
     public static void main(String[] args) {
         //creating the object and calling the class
         Calculator calculator = new Calculator(3);
     }
+
 }
